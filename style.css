@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+:root {
+    --primary-color: #facc15;
+    --border-color: #111827;
+    --secondary-color: #fef9c3;
+    --width-break: 600px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3{
+    margin:15px 0;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+.nav-heading {
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+#header-img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    font-size: 15px;
+    border: 2px solid var(--border-color);
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.btn {
+    text-align: center;
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    margin-right: 1rem;
+    display: inline;
+    border: 2px solid var(--border-color);
+    cursor: pointer;
+    font-size: 15px;
+    min-height: 6vh;
+    border-radius: 1rem;
+    padding: 10px 20px;
+}
+
+#btn-clear {
+    background-color: var(--secondary-color);
+    display: inline;
+    border: 2px solid var(--border-color);
+    cursor: pointer;
+    font-size: 15px;
+    min-height: 6vh;
+    border-radius: 1rem;
+    padding: 10px 20px;
+}
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20vh;
+    overflow: scroll;
+    border: 2px solid var(--border-color);
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    font-size: 15px;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+#footer-about {
+    font-weight: bold;
+}
